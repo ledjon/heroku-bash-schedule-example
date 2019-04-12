@@ -7,7 +7,8 @@ Heroku's documentation can make you overthink things some times.  You basically 
 
 ```
 # clone this repo:
-git clone ...
+git clone git@github.com:ledjon/heroku-bash-schedule-example.git 
+
 # make heroku app (you will need to select another name, probably):
 heroku apps:create -n my-heroku-bash-schedule-example
 
@@ -28,6 +29,8 @@ exit;
 ```
 
 ### Create the addon and schedule task
+
+These steps can be done from the heroku console, of course:
 
 ```
 heroku addons:create scheduler:standard
